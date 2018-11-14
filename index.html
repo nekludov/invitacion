@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offet="97">
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="Platzi logo">
+          Fiesta de Cumpleaños
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#main">Fiesta</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#place-time">Invitación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conviertete-en-orador">Ubicación</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /Header -->
+    <!-- principal -->
+    <section id="main">
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="assets/images/super1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/super2.jpg" alt="Second slide">
+        </div>
+        <!-- <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/hawaii3.jpeg" alt="Third slide">
+        </div> -->
+      </div>
+      <!-- <div class="overlay">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 offset-md-6 text-center text-md-right">
+              h1>Platzi Conf Hawai</h1>
+              <p class="d-none d-md-block">Platzi Conf llega por primera vez a Hawai Un evento para compartir con la comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet.Ven a conocer a miembros del team platzi, a otros Estudiantes de platzi y a los oradores de primer nivel. Te esperamos</p>
+              <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+              <button class="btn btn-platzi"type="button" name="button" data-toggle="modal" data-target="#modalcompra">ubicación</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    </section>
+
+    <!-- lugar y fecha -->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="assets/images/fiesta.jpg" alt="">
+          </div>
+          <div class="col-12 col-lg-6 pt-2 align-self-center">
+            <h2>Fiesta de Cumpleaños de Elizabeth Roldán</h2>
+          	<p>Te invitamos cordialmente a que asistas el próximo <strong>2 de diciembre</strong> a la fiesta de Cumpleaños de nuestra amada hija <strong>Elizabeth Amelié Roldán Mendoza</strong> para celebrar sus 6 añitos de edad. La idea es crear un ambiente agradable para que comparta con todos sus amigos en ese día tan especial alrededor de una psicina.
+          	</p>
+
+            <p>Recuerda llevar tu traje de baño, todos estan invitados a bañarse junto a sus hijos.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <section id="#conviertete-en-orador">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col pl-0 pr-0">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1176.6010347781473!2d-69.26319895337296!3d10.031351282410023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a4a9ad752341d4a!2sCentro+Comercial+Anaya!5e1!3m2!1ses!2sve!4v1542210579413" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalcompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Comprar Tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <fomr>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </fomr>
+            <div class="alert alert-warning" role="alert">
+              A simple warning alert—check it out!
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer-->
+    <footer id="footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            ¡Te esperamos...!
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
